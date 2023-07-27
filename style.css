@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
    
 }
-
+ 
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -109,6 +109,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: 1s all;
 }
 .head-left a{
 text-align: center;
