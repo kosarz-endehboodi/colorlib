@@ -7,9 +7,9 @@ body {
     background-color: #f67590;
     font-family: pop;
     box-sizing: border-box;
-   
+
 }
- 
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -104,45 +104,47 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
-.head-left .but{
+
+.head-left .but {
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     transition: 1s all;
 }
-.head-left a{
-text-align: center;
-    padding:7px 7px ;
-    border: 1px solid white;;
+
+.head-left a {
+    text-align: center;
+    padding: 7px 7px;
+    border: 1px solid white;
+    ;
     font-size: 15px;
     background-color: white;
     border-radius: 24px;
     width: 150px;
     height: 20px;
     color: black;
- 
- 
+
+
     font-weight: 500;
     cursor: pointer;
-    line-height:4%
-   
-
-  
+    line-height: 4%
 }
-.head-left a i{
+
+.head-left a i {
     display: inline;
 }
-.head-left a:hover{
+
+.head-left a:hover {
     color: aliceblue;
     background-color: rgba(255, 255, 255, 0.151);
-    
+
 }
 
 
 .head-left .but {
     text-align: left;
-    
+
 }
 
 /* start body */
@@ -153,7 +155,8 @@ text-align: center;
     flex-wrap: wrap;
     background-color: white;
 }
-.LearnDetails{
+
+.LearnDetails {
     width: 32%;
 }
 
@@ -243,10 +246,10 @@ text-align: center;
 .pic {
     background-color: white;
     padding: 5% 0;
-display: flex;
-justify-content: center;
-flex-direction: row;
-flex-wrap:wrap ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -261,7 +264,7 @@ flex-wrap:wrap ;
 
 .pic1 {
 
-    
+
     background-image: url(img/g1.jpg.webp);
     width: 60%;
 
@@ -272,14 +275,14 @@ flex-wrap:wrap ;
 .pic2 {
     background-image: url(img/g2.jpg.webp);
     width: 30%;
-    
+
 
 }
 
 .pic3 {
     background-image: url(img/g3.jpg.webp);
     width: 30%;
-    
+
 
 
 }
@@ -287,8 +290,8 @@ flex-wrap:wrap ;
 .pic4 {
     background-image: url(img/g4.jpg.webp);
     width: 29%;
-   
-   
+
+
 
 
 }
@@ -296,8 +299,8 @@ flex-wrap:wrap ;
 .pic5 {
     background-image: url(img/g5.jpg.webp);
     width: 29%;
-   
-   
+
+
 
 }
 
@@ -305,7 +308,7 @@ flex-wrap:wrap ;
 
     background-image: url(img/g6.jpg.webp);
     width: 29%;
-  
+
     background-size: cover;
 
 }
@@ -313,8 +316,8 @@ flex-wrap:wrap ;
 .pic7 {
     background-image: url(img/g7.jpg.webp);
     width: 60%;
-    
-   
+
+
 
 
 }
@@ -479,8 +482,9 @@ flex-wrap:wrap ;
 }
 
 .typeemail {
-    box-sizing: border-box;
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     width: 500px;
     color: rgb(134, 134, 134);
     height: 55px;
@@ -488,44 +492,36 @@ flex-wrap:wrap ;
     border-radius: 34px;
 }
 
-.typeemail p {
-    padding-left: 2%;
-    margin: 0;
-    margin-top: 1%;
-    position: absolute;
-
+.typeemail .email {
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 34px;
 }
 
-.typeemail>div {
-    margin-top:2.6%;
-     margin-right: 2%;
-    width: 100%;
-    height: 35px;
+
+.typeemail .sub {
+    cursor: pointer;
     display: flex;
-    justify-content: right;
-}
-
-.typeemail>div>div {
-  margin-right: 1%;
+    justify-content: center;
     width: 150px;
     color: white;
+    margin-top: 4px;
+    margin-right: 4px;
+    padding: 5px;
     background-color: #f75f80;
     height: 35px;
     text-align: center;
-    padding-top: 2%;
     border-radius: 34px;
-    margin-top: -10px;
     border: 1px solid white;
 
 }
-
-.typeemail a {
-    width: 150px;
-    color: white;
-
-    height: 50px;
-    text-decoration: none;
+.btnsub{
+    background-color: rgba(0, 0, 128, 0);
+    border: none;
+    color: azure;
 }
+
 
 
 
@@ -567,7 +563,7 @@ flex-wrap:wrap ;
 
 .colorlib b:hover {
 
-    
+
     color: rgb(5, 5, 5);
 }
 
@@ -580,6 +576,7 @@ flex-wrap:wrap ;
     margin: 5px 3px;
     transition: 1s;
 }
-.colorlib i:hover{
+
+.colorlib i:hover {
     color: rgb(5, 5, 5);
 }
