@@ -517,6 +517,7 @@ body {
 
 }
 .btnsub{
+    cursor: pointer;
     background-color: rgba(0, 0, 128, 0);
     border: none;
     color: azure;
